@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Ultra&display=swap');
+
 body {
     margin: 0;
-    font-family: 'Arial';
+    padding: 20px;
+    background: #ff5f9c;
+    font-family:'Ultra', serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
@@ -8,22 +12,32 @@ body {
   code {
     font-family: Arial;
   }
+
+  h1 {
+    text-align: center;
+    font-size: 56px;
+    color:#a4eb48;
+  }
   
   .app {
-    background: #209cee;
     padding: 30px;
     height: 100vh;
   }
   
   .todo-list{
-    background: #e8e8e8;
-    border-radius: 4px;
-    padding: 5px;
-    max-width: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(255, 109, 11); 
+    border-radius: 10px;
+    padding: 10px;
+    height: 400px;
+    width: 600px;
   }
   
   .todo{
-    background: #fff;
+    background: #fff23c;
     box-shadow: 1px 1px 1px rgba(0,0,0, 0.15);
     padding: 3px 10px;
     font-size: 24px;
@@ -43,5 +57,7 @@ body {
     padding: 1rem;
     height: 2.25em;
     font-size: 24px;
+    font-family:'Ultra', serif;
+    background: #fff23c;
   }
   
